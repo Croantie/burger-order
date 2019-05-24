@@ -119,6 +119,7 @@ class Burger extends React.Component {
 
     cancelOrder() {
         this.setState({showOrderBlock: true});
+        this.setState({showForm: false});
     }
 
     showForm() {
