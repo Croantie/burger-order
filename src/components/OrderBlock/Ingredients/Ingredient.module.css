@@ -1,0 +1,11 @@
+.ingredient {
+    width: 250px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.ingredient p {
+    font-weight: bold;
+}
